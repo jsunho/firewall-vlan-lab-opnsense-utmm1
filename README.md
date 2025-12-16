@@ -109,14 +109,14 @@ Each document describes one part of the lab and makes it reproducible.
 - [x] WebGUI access tested
 - [x] DHCP services configured
 - [x] Firewall rules implemented
-- [ ] Documentation finalized
+- [x] Documentation finalized
 
 ## 6. Key Learnings and Concepts
 
 During the project I worked with:
   - Virtualization vs. emulation on Apple Silicon
   - UTM networking (Shared vs. Isolated mode)
-  - Assigning interfaces in OPNsense (em0, em1, em2)
+  - Assigning interfaces in OPNsense (evtnet0, vtnet1, vtnet2)
   - Static IP configuration and subnetting
   - DHCP, DNS, and routing fundamentals
   - Writing firewall rules (allow/deny policies, segmentation)
